@@ -127,10 +127,10 @@ const ContentSection = ({ isDarkMode, setViewMode, t, viewMode, handleSearchChan
                                     className={`hidden sm:grid grid-cols-6 gap-4 text-sm font-medium border-b pb-2 ${isDarkMode ? "text-gray-400 border-gray-700" : "text-gray-600 border-gray-300"
                                         }`}
                                 >
-                                    <div className="col-span-2">Penerbangan</div>
-                                    <div className="col-span-2">Rute</div>
-                                    <div>Ketinggian</div>
-                                    <div>Kecepatan</div>
+                                    <div className="col-span-2">{t.content.tabel.flight}</div>
+                                    <div className="col-span-2">{t.content.tabel.rute}</div>
+                                    <div>{t.content.tabel.altitude}</div>
+                                    <div>{t.content.tabel.speed}</div>
                                 </div>
 
                                 {/* Flight Rows */}

@@ -39,7 +39,7 @@ const AboutSection = ({ t, isDarkMode }) => {
                         <div className="flex gap-3 items-center">
                             <GraduationCap className={`w-5 h-5 ${isDarkMode ? "text-blue-400" : "text-blue-600"}`} />
                             <div className='flex flex-col items-start'>
-                                <p className="text-sm text-gray-500">Pendidikan</p>
+                                <p className="text-sm text-gray-500">{data.pendidikan}</p>
                                 <p className={`font-medium ${isDarkMode ? "text-white" : "text-gray-900"}`}>{data.school}</p>
                                 <p className={`text-sm ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>{data.major} - {data.year}</p>
                             </div>
@@ -48,7 +48,7 @@ const AboutSection = ({ t, isDarkMode }) => {
                         <div className="flex gap-3 items-center">
                             <MapPin className={`w-5 h-5 ${isDarkMode ? "text-blue-400" : "text-blue-600"}`} />
                             <div className='flex flex-col items-start'>
-                                <p className="text-sm text-gray-500">Lokasi</p>
+                                <p className="text-sm text-gray-500">{data.lokasi}</p>
                                 <p className={`font-medium ${isDarkMode ? "text-white" : "text-gray-900"}`}>{data.location}</p>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const AboutSection = ({ t, isDarkMode }) => {
                         <div className="flex gap-3 items-center">
                             <Calendar className={`w-5 h-5 ${isDarkMode ? "text-blue-400" : "text-blue-600"}`} />
                             <div className='flex flex-col items-start'>
-                                <p className="text-sm text-gray-500">Tahun Kelulusan</p>
+                                <p className="text-sm text-gray-500">{data.tahunlulus}</p>
                                 <p className={`font-medium ${isDarkMode ? "text-white" : "text-gray-900"}`}>{data.year}</p>
                             </div>
                         </div>
