@@ -1,12 +1,18 @@
-# React + Vite
+# Langit Dunia - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌓 **Dimohon menggunakan tema gelap (dark mode) di browser Anda untuk pengalaman visual terbaik saat membuka website ini.**
 
-Currently, two official plugins are available:
+## Cara Menjalankan Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Jika Anda meng-clone repository ini dari GitHub, ikuti langkah-langkah berikut:
 
-## Expanding the ESLint configuration
+```bash
+# 1. Clone repositori
+git clone https://github.com/username/Rezaghiyatsfikri_LangitDunia.git
+cd namarepo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Install dependencies
+npm install
+
+# 3. Jalankan project
+npm run dev
