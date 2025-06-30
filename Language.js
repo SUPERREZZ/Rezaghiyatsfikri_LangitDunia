@@ -34,13 +34,23 @@ const translations = {
         status: "Status",
       },
       about: {
-        title: "About Langit Dunia",
-        description1:
-          "Langit Dunia combines cutting-edge visualization technology with comprehensive aviation data to showcase World's rich aerospace heritage and current flight operations.",
-        description2:
-          "From historical aircraft to modern flight routes, explore the evolution of World aviation through interactive maps, real-time data, and cultural insights.",
-        learnMore: "Learn More",
-      },
+      title: "About Me",
+      subtitle: "Introduction",
+      name: "Reza Ghiyats Fikri",
+      titleText: "Full Stack Developer & Mobile Developer",
+      school: "SMKN 2 KOTA MOJOKERTO",
+      major: "Software Engineering",
+      year: "2026",
+      location: "Mojokerto, Indonesia",
+      email: "rezaghiyatsfikri2023@gmail.com",
+      github: "SUPERREZZ",
+      linkedin: "reza-ghiyats-fikri",
+      bio: "I’m a high school student passionate about full-stack web and mobile development. Actively competing in IT competitions at provincial and national levels, with a strong interest in technology and building impactful digital products.",
+      competitions: [
+        "East Java Provincial LKS 2025 Finalist - IT Software Solution for Business",
+        "1st Place Winner - DIFEST 2024 Web Design Competition"
+      ]
+    },
       contact: {
         title: "Get In Touch",
         description:
@@ -86,14 +96,24 @@ const translations = {
         flight: "Penerbangan",
         status: "Status",
       },
-      about: {
-        title: "Tentang Langit Dunia",
-        description1:
-          "Langit Dunia menggabungkan teknologi visualisasi canggih dengan data penerbangan komprehensif untuk menampilkan warisan dirgantara Dunia yang kaya dan operasi penerbangan saat ini.",
-        description2:
-          "Dari pesawat bersejarah hingga rute penerbangan modern, jelajahi evolusi penerbangan Dunia melalui peta interaktif, data real-time, dan wawasan budaya.",
-        learnMore: "Pelajari Lebih Lanjut",
-      },
+       about: {
+      title: "Tentang Saya",
+      subtitle: "Perkenalan",
+      name: "Reza Ghiyats Fikri",
+      titleText: "Full Stack Developer & Mobile Developer",
+      school: "SMKN 2 KOTA MOJOKERTO",
+      major: "Rekayasa Perangkat Lunak",
+      year: "2026",
+      location: "Mojokerto, Indonesia",
+      email: "rezaghiyatsfikri2023@gmail.com",
+      github: "SUPERREZZ",
+      linkedin: "reza-ghiyats-fikri",
+      bio: "Saya adalah siswa SMK yang antusias dalam pengembangan web dan mobile secara full-stack. Aktif berpartisipasi dalam kompetisi IT tingkat provinsi dan nasional dengan semangat tinggi dalam teknologi.",
+      competitions: [
+        "Finalis LKS Provinsi Jawa Timur 2025 - IT Software Solution for Business",
+        "Juara 1 DIFEST 2024 - Lomba Web Design"
+      ]
+    },
       contact: {
         title: "Hubungi Kami",
         description:

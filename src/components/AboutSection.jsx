@@ -2,22 +2,7 @@ import { User, GraduationCap, MapPin, Calendar, Mail, Github, Linkedin, Award } 
 import { Button } from "../components/ui/Button";
 
 const AboutSection = ({ t, isDarkMode }) => {
-    const data = {
-        name: "Reza Ghiyats Fikri",
-        title: "Full Stack Developer & Mobile Developer",
-        school: "SMKN 2 KOTA MOJOKERTO",
-        major: "Rekayasa Perangkat Lunak",
-        year: "2026",
-        location: "Mojokerto, Indonesia",
-        email: "rezaghiyatsfikri2023@gmail.com",
-        github: "SUPERREZZ",
-        linkedin: "reza-ghiyats-fikri",
-        bio: "Saya adalah pelajar SMK yang bersemangat dalam pengembangan web dan mobile berbasis full-stack. Aktif mengikuti lomba IT tingkat provinsi dan nasional, serta memiliki minat kuat dalam teknologi dan pengembangan produk digital.",
-        competitions: [
-            "Peserta LKS Provinsi Jawa Timur 2025 bidang ITSSB",
-            "Juara 1 DIFEST 2024 bidang Web Design"
-        ]
-    };
+    const data  = t.about
 
     return (
         <section id="about" className="py-20">
