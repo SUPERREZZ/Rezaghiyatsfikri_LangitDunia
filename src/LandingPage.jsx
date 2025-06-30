@@ -58,7 +58,7 @@ export default function LandingPage() {
     const t = translations[language]
 
     return (
-        <div className="relative overflow-hidden bg-gray-900">
+        <div className="relative bg-gray-900">
             <div
             className={`min-h-screen transition-colors duration-300 ${isDarkMode ? "bg-gray-900 text-white" : "bg-gray-50 text-gray-900"}`}
         >
