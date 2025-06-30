@@ -1,0 +1,17 @@
+.leaflet-plane-icon {
+    background: transparent;
+    border: none;
+    transition: opacity 0.4s ease-in-out, filter 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center center;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+/* Style untuk pesawat & jalur yang tidak dipilih */
+.leaflet-plane-icon.dimmed {
+    opacity: 0.2;
+    filter: grayscale(100%);
+}
